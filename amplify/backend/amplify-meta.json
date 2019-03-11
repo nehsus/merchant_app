@@ -1,0 +1,35 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "merchantapp-20190311033826-authRole",
+			"UnauthRoleArn": "arn:aws:iam::069909206169:role/merchantapp-20190311033826-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::069909206169:role/merchantapp-20190311033826-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "merchantapp-20190311033826-deployment",
+			"UnauthRoleName": "merchantapp-20190311033826-unauthRole",
+			"StackName": "merchantapp-20190311033826",
+			"StackId": "arn:aws:cloudformation:us-east-1:069909206169:stack/merchantapp-20190311033826/086cc8e0-4381-11e9-a778-0a1726208052"
+		}
+	},
+	"auth": {
+		"cognito11506237": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/merchantapp-20190311033826-deployment/amplify-cfn-templates/auth/cognito11506237-cloudformation-template.yml",
+				"logicalId": "authcognito11506237"
+			},
+			"lastPushTimeStamp": "2019-03-10T22:15:27.334Z",
+			"output": {
+				"AppClientSecret": "18e7sbhs41am5g0eal8hv9rg5tvuaa5ujttnpugkcq9h6tju1chj",
+				"UserPoolId": "us-east-1_i4Baj7UG2",
+				"AppClientIDWeb": "5p8pqc2l3an867rgk2em31bpmn",
+				"AppClientID": "4rmurjeu8eqg8vml1s4643a8nt",
+				"IdentityPoolId": "us-east-1:675f6abb-b67f-410b-9de4-08cbf0e2f90d",
+				"IdentityPoolName": "cognito11506237_identitypool_11506237__dev",
+				"UserPoolName": "cognito11506237_userpool_11506237"
+			},
+			"lastPushDirHash": "7Jzr+nv8g94KEN7fAT8dkWUgAUM="
+		}
+	}
+}

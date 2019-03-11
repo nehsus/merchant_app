@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "merchantapp-20190311033826-authRole",
+            "UnauthRoleArn": "arn:aws:iam::069909206169:role/merchantapp-20190311033826-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::069909206169:role/merchantapp-20190311033826-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "merchantapp-20190311033826-deployment",
+            "UnauthRoleName": "merchantapp-20190311033826-unauthRole",
+            "StackName": "merchantapp-20190311033826",
+            "StackId": "arn:aws:cloudformation:us-east-1:069909206169:stack/merchantapp-20190311033826/086cc8e0-4381-11e9-a778-0a1726208052"
+        },
+        "categories": {
+            "auth": {
+                "cognito11506237": {}
+            }
+        }
+    }
+}
